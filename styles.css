@@ -1,0 +1,94 @@
+/* #4734e1, #8e27ea */
+/* Start Left Panel Styles */
+
+.upper-right-shape {
+  position: absolute;
+  background-image: url("images/yellow-path.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  top: -120px;
+  right: 48%;
+  width: 250px;
+  height: 250px;
+  z-index: 2;
+}
+/* .lower-right-shape {
+  clip-path: url("images/yellow.svg");
+  width: 150px;
+  height: 70px;
+  background-color: green;
+  position: absolute;
+  bottom: 0;
+  right: 20px;
+} */
+.left-panel {
+  background-image: url("images/blue-background.png");
+  height: 100vh;
+  padding: 60px 20px;
+  background-size: cover;
+  position: relative;
+}
+.left-panel img {
+  background-image: url("images/whiteee.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-y: bottom;
+}
+.bottom-shape {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.middle-shape {
+  background-image: url("images/manfull.png");
+}
+
+/* Start Right Panel Styles */
+/* End Right Panel Styles */
+.right-panel {
+  height: 100vh;
+}
+.right-panel .normalize {
+  height: 100vh;
+  padding: 60px 20px;
+}
+.right-panel .normalize h2 {
+  margin-bottom: 30px;
+}
+.right-panel .dropdown {
+  margin-bottom: 20px;
+}
+.right-panel .form-control {
+  margin-bottom: 20px;
+  height: 50px;
+  background-color: #efefef;
+}
+.right-panel .form-control .input-wrapper {
+  display: inline-block;
+  position: relative;
+}
+.input-wrapper:after {
+  font-family: "FontAwesome";
+  content: "\f073";
+  position: absolute;
+  right: 20px;
+  top: 12px;
+  font-size: 20px;
+}
+.right-panel .check-boxes span {
+  display: block;
+}
+.check-boxes .form-check {
+  display: inline-block;
+  margin-right: 20px;
+}
+#inputState {
+  height: 50px;
+}
+.btn {
+  height: 50px;
+  width: 200px;
+  border-radius: 26px;
+  background-image: linear-gradient(90deg, #4734e1, #8e27ea);
+  color: #fff;
+}
