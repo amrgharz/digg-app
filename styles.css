@@ -108,6 +108,9 @@
   font-size: larger;
   font-weight: 400;
 }
+.head-section {
+  margin-bottom: 15px;
+}
 .head-section h1 {
   display: inline-block;
   width: 10%;
@@ -190,4 +193,27 @@
 }
 .btn-group .btn-next {
   background-image: linear-gradient(90deg, #4734e1, #8e27ea);
+}
+
+/* second progress */
+.second-choice {
+  width: 194px;
+  height: 50px;
+  background-color: #efe4ef;
+  display: inline-block;
+  text-align: center;
+  padding: 12px;
+  border-radius: 25px;
+  margin-right: 20px;
+  margin-bottom: 15px;
+}
+.basic-info {
+  background-color: #f3f3f3;
+  border: 1px solid #444;
+  padding: 10px;
+}
+.details span {
+  display: inline-block;
+  margin-right: 50px;
+  margin-bottom: 25px;
 }
